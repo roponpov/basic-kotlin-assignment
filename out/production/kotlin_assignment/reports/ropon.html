@@ -1,0 +1,490 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Place Report</title>
+            <style>
+                body {
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                    background: #f3f4f6;
+                    margin: 0;
+                    padding: 20px;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    background: #ffffff;
+                    padding: 24px;
+                    border-radius: 12px;
+                    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+                }
+                h1 {
+                    text-align: center;
+                    margin-top: 0;
+                    margin-bottom: 8px;
+                    font-size: 28px;
+                    letter-spacing: 0.05em;
+                }
+                .subtitle {
+                    text-align: center;
+                    margin-top: 0;
+                    margin-bottom: 24px;
+                    color: #6b7280;
+                    font-size: 14px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    table-layout: fixed;
+                }
+                thead {
+                    background: linear-gradient(90deg, #2563eb, #4f46e5);
+                    color: white;
+                }
+                th, td {
+                    padding: 10px 12px;
+                    border-bottom: 1px solid #e5e7eb;
+                    vertical-align: top;
+                    font-size: 14px;
+                    word-wrap: break-word;
+                    word-break: break-word;
+                }
+                th {
+                    text-align: left;
+                    font-weight: 600;
+                }
+                tr:nth-child(even) tbody {
+                    background-color: #f9fafb;
+                }
+                tbody tr:nth-child(even) {
+                    background-color: #f9fafb;
+                }
+                tbody tr:hover {
+                    background-color: #eef2ff;
+                }
+                .id-col {
+                    width: 60px;
+                    text-align: center;
+                }
+                .name-col {
+                    width: 180px;
+                }
+                .address-col {
+                    width: 260px;
+                }
+                .distance-col {
+                    width: 90px;
+                    text-align: right;
+                    white-space: nowrap;
+                }
+                .description-col {
+                    width: auto;
+                }
+                .badge-count {
+                    display: inline-block;
+                    padding: 4px 8px;
+                    border-radius: 999px;
+                    background: #eef2ff;
+                    color: #3730a3;
+                    font-size: 11px;
+                    font-weight: 600;
+                    margin-left: 4px;
+                }
+                .footer-note {
+                    margin-top: 16px;
+                    font-size: 11px;
+                    color: #9ca3af;
+                    text-align: right;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Place Report</h1>
+                <p class="subtitle">
+                    Exported 52 place(s)
+                    <span class="badge-count">TOTAL: 52</span>
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="id-col">ID</th>
+                            <th class="name-col">Place Name</th>
+                            <th class="address-col">Address</th>
+                            <th class="distance-col">Distance</th>
+                            <th class="description-col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+    <td>1</td>
+    <td>Angkor Wat</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>320 m</td>
+    <td>The most iconic temple complex in Cambodia and a UNESCO World Heritage Site, representing the pinnacle of Khmer architecture.</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Bayon Temple</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>320 m</td>
+    <td>Famous for its massive stone faces and intricate bas-reliefs, located in the center of Angkor Thom.</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Ta Prohm</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>320 m</td>
+    <td>A temple left mostly unrestored, with trees growing through the stone structures, creating a mystical jungle atmosphere.</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Banteay Srei</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>330 m</td>
+    <td>A small but beautifully detailed temple built of pink sandstone, known as the &#39;Jewel of Khmer Art&#39;.</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Koh Rong Island</td>
+    <td>Sihanoukville Province, Cambodia</td>
+    <td>230 m</td>
+    <td>A stunning island known for crystal-clear waters, coral reefs, and white sand beaches.</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>Koh Rong Samloem</td>
+    <td>Sihanoukville Province, Cambodia</td>
+    <td>230 m</td>
+    <td>A quieter sister island of Koh Rong, perfect for relaxing and enjoying untouched nature.</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>Bokor National Park</td>
+    <td>Kampot Province, Cambodia</td>
+    <td>170 m</td>
+    <td>A mountain park featuring waterfalls, misty views, and historical French colonial buildings.</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>Kampot Pepper Plantations</td>
+    <td>Kampot Province, Cambodia</td>
+    <td>150 m</td>
+    <td>Renowned pepper farms producing world-famous Kampot pepper, offering guided tours and tastings.</td>
+</tr>
+<tr>
+    <td>9</td>
+    <td>Phnom Chisor</td>
+    <td>Takeo Province, Cambodia</td>
+    <td>60 m</td>
+    <td>An ancient hilltop temple offering panoramic views of the countryside.</td>
+</tr>
+<tr>
+    <td>10</td>
+    <td>Tonle Bati Temple</td>
+    <td>Takeo Province, Cambodia</td>
+    <td>40 m</td>
+    <td>A serene temple complex beside a peaceful lake, popular for picnics and weekend visits.</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>Phnom Tamao Wildlife Rescue Center</td>
+    <td>Takeo Province, Cambodia</td>
+    <td>45 m</td>
+    <td>A large wildlife sanctuary housing rescued animals like tigers, elephants, and bears.</td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>Kampong Ayer Temple</td>
+    <td>Kampong Chhnang Province, Cambodia</td>
+    <td>90 m</td>
+    <td>An ancient riverside pagoda located along the Tonle Sap River with beautiful local architecture.</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>Kampong Chhnang Floating Village</td>
+    <td>Kampong Chhnang Province, Cambodia</td>
+    <td>95 m</td>
+    <td>A community of floating houses and boats along the Tonle Sap, showcasing local river life.</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>Phnom Santuk</td>
+    <td>Kampong Thom Province, Cambodia</td>
+    <td>170 m</td>
+    <td>A sacred mountain temple with ancient Buddha statues and panoramic countryside views.</td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>Sambo Prei Kuk</td>
+    <td>Kampong Thom Province, Cambodia</td>
+    <td>170 m</td>
+    <td>Pre-Angkorian temple ruins recognized as a UNESCO World Heritage Site.</td>
+</tr>
+<tr>
+    <td>16</td>
+    <td>Prasat Tamon (Tamon Temple)</td>
+    <td>Battambang Province, Cambodia</td>
+    <td>300 m</td>
+    <td>An ancient Khmer temple hidden in lush greenery, known for its peaceful environment.</td>
+</tr>
+<tr>
+    <td>17</td>
+    <td>Phnom Sampeau</td>
+    <td>Battambang Province, Cambodia</td>
+    <td>295 m</td>
+    <td>A hilltop site with caves, pagodas, and memorials, offering sunset views and a bat cave spectacle.</td>
+</tr>
+<tr>
+    <td>18</td>
+    <td>Wat Banan Temple</td>
+    <td>Battambang Province, Cambodia</td>
+    <td>300 m</td>
+    <td>An 11th-century Angkor-style temple located on a hill with scenic countryside views.</td>
+</tr>
+<tr>
+    <td>19</td>
+    <td>Bamboo Train (Norry)</td>
+    <td>Battambang Province, Cambodia</td>
+    <td>295 m</td>
+    <td>A fun and unique bamboo railway ride through the Cambodian countryside.</td>
+</tr>
+<tr>
+    <td>20</td>
+    <td>Preah Vihear Temple</td>
+    <td>Preah Vihear Province, Cambodia</td>
+    <td>410 m</td>
+    <td>A stunning cliff-top temple dedicated to Shiva, offering dramatic views over Thailand and Cambodia.</td>
+</tr>
+<tr>
+    <td>21</td>
+    <td>Koh Ker Temple</td>
+    <td>Preah Vihear Province, Cambodia</td>
+    <td>360 m</td>
+    <td>A remote ancient city featuring a seven-tiered pyramid temple surrounded by jungle.</td>
+</tr>
+<tr>
+    <td>22</td>
+    <td>Kulen Mountain</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>340 m</td>
+    <td>A sacred mountain with waterfalls, Buddha carvings, and historical significance to the Khmer Empire.</td>
+</tr>
+<tr>
+    <td>23</td>
+    <td>1000 Lingas River (Kbal Spean)</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>335 m</td>
+    <td>A sacred riverbed with thousands of carvings depicting Hindu deities.</td>
+</tr>
+<tr>
+    <td>24</td>
+    <td>Tonle Sap Lake</td>
+    <td>Siem Reap Province, Cambodia</td>
+    <td>310 m</td>
+    <td>Southeast Asia\u2019s largest freshwater lake, home to floating villages and rich biodiversity.</td>
+</tr>
+<tr>
+    <td>25</td>
+    <td>Kratie Dolphin Area</td>
+    <td>Kratie Province, Cambodia</td>
+    <td>250 m</td>
+    <td>A scenic area along the Mekong River where visitors can spot rare Irrawaddy dolphins.</td>
+</tr>
+<tr>
+    <td>26</td>
+    <td>Koh Trong Island</td>
+    <td>Kratie Province, Cambodia</td>
+    <td>250 m</td>
+    <td>A peaceful island in the Mekong River with cycling paths and local homestays.</td>
+</tr>
+<tr>
+    <td>27</td>
+    <td>Mondulkiri Elephant Valley Project</td>
+    <td>Mondulkiri Province, Cambodia</td>
+    <td>370 m</td>
+    <td>A conservation project that allows visitors to see rescued elephants in their natural forest habitat.</td>
+</tr>
+<tr>
+    <td>28</td>
+    <td>Bousra Waterfall</td>
+    <td>Mondulkiri Province, Cambodia</td>
+    <td>380 m</td>
+    <td>A majestic multi-tiered waterfall surrounded by jungle and ethnic minority villages.</td>
+</tr>
+<tr>
+    <td>29</td>
+    <td>Sen Monorom Town</td>
+    <td>Mondulkiri Province, Cambodia</td>
+    <td>370 m</td>
+    <td>A cool highland town known for its rolling hills, coffee farms, and eco-tourism lodges.</td>
+</tr>
+<tr>
+    <td>30</td>
+    <td>Ratanakiri Yeak Laom Lake</td>
+    <td>Ratanakiri Province, Cambodia</td>
+    <td>520 m</td>
+    <td>A beautiful volcanic lake surrounded by rainforest, perfect for swimming and relaxing.</td>
+</tr>
+<tr>
+    <td>31</td>
+    <td>Katieng Waterfall</td>
+    <td>Ratanakiri Province, Cambodia</td>
+    <td>530 m</td>
+    <td>A scenic waterfall hidden within Ratanakiri\u2019s lush forest.</td>
+</tr>
+<tr>
+    <td>32</td>
+    <td>Banlung Market</td>
+    <td>Ratanakiri Province, Cambodia</td>
+    <td>520 m</td>
+    <td>A lively local market selling traditional crafts and local produce.</td>
+</tr>
+<tr>
+    <td>33</td>
+    <td>Phnom Penh Royal Palace</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>The official residence of the King of Cambodia, featuring golden pagodas and beautiful gardens.</td>
+</tr>
+<tr>
+    <td>34</td>
+    <td>National Museum of Cambodia</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>Houses the world\u2019s largest collection of Khmer art and artifacts.</td>
+</tr>
+<tr>
+    <td>35</td>
+    <td>Wat Phnom</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>A historic pagoda on a small hill in the city center, marking the birthplace of Phnom Penh.</td>
+</tr>
+<tr>
+    <td>36</td>
+    <td>Independence Monument</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>Built to commemorate Cambodia\u2019s independence from France in 1953.</td>
+</tr>
+<tr>
+    <td>37</td>
+    <td>Choeung Ek Killing Fields</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>15 m</td>
+    <td>A memorial site dedicated to victims of the Khmer Rouge regime.</td>
+</tr>
+<tr>
+    <td>38</td>
+    <td>Tuol Sleng Genocide Museum</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>A former high school turned into a prison during the Khmer Rouge era, now a museum of remembrance.</td>
+</tr>
+<tr>
+    <td>39</td>
+    <td>Kep Beach</td>
+    <td>Kep Province, Cambodia</td>
+    <td>165 m</td>
+    <td>A small seaside town known for its crab market, quiet beaches, and sunset views.</td>
+</tr>
+<tr>
+    <td>40</td>
+    <td>Rabbit Island (Koh Tonsay)</td>
+    <td>Kep Province, Cambodia</td>
+    <td>170 m</td>
+    <td>A small island off Kep\u2019s coast, popular for its laid-back vibe and clear waters.</td>
+</tr>
+<tr>
+    <td>41</td>
+    <td>Kampong Cham Bamboo Bridge</td>
+    <td>Kampong Cham Province, Cambodia</td>
+    <td>125 m</td>
+    <td>A seasonal bamboo bridge rebuilt annually by locals to connect to Koh Paen Island.</td>
+</tr>
+<tr>
+    <td>42</td>
+    <td>Hanchey Temple</td>
+    <td>Kampong Cham Province, Cambodia</td>
+    <td>130 m</td>
+    <td>An ancient hilltop temple overlooking the Mekong River.</td>
+</tr>
+<tr>
+    <td>43</td>
+    <td>Sihanoukville Beaches</td>
+    <td>Sihanoukville Province, Cambodia</td>
+    <td>230 m</td>
+    <td>Famous for long stretches of sandy beaches and nearby islands.</td>
+</tr>
+<tr>
+    <td>44</td>
+    <td>Otres Beach</td>
+    <td>Sihanoukville Province, Cambodia</td>
+    <td>235 m</td>
+    <td>A peaceful and scenic beach area ideal for swimming and sunsets.</td>
+</tr>
+<tr>
+    <td>45</td>
+    <td>Kbal Chhay Waterfall</td>
+    <td>Sihanoukville Province, Cambodia</td>
+    <td>230 m</td>
+    <td>A natural waterfall surrounded by forest, great for a short hike or picnic.</td>
+</tr>
+<tr>
+    <td>46</td>
+    <td>Phnom Da Temple</td>
+    <td>Takeo Province, Cambodia</td>
+    <td>80 m</td>
+    <td>A 6th-century temple built on a small hill, one of Cambodia\u2019s oldest religious sites.</td>
+</tr>
+<tr>
+    <td>47</td>
+    <td>Chisor Mountain Temple</td>
+    <td>Takeo Province, Cambodia</td>
+    <td>60 m</td>
+    <td>An ancient temple ruin offering breathtaking countryside views.</td>
+</tr>
+<tr>
+    <td>48</td>
+    <td>Prey Veng Lake</td>
+    <td>Prey Veng Province, Cambodia</td>
+    <td>90 m</td>
+    <td>A peaceful lake surrounded by rice fields, perfect for local-style relaxation.</td>
+</tr>
+<tr>
+    <td>49</td>
+    <td>Svay Rieng Dragon Bridge</td>
+    <td>Svay Rieng Province, Cambodia</td>
+    <td>130 m</td>
+    <td>A unique bridge shaped like a dragon, a popular local photo spot.</td>
+</tr>
+<tr>
+    <td>50</td>
+    <td>Neak Loeung Bridge (Tsubasa Bridge)</td>
+    <td>Kandal Province, Cambodia</td>
+    <td>60 m</td>
+    <td>A massive Japanese-built bridge spanning the Mekong River, connecting Kandal and Prey Veng.</td>
+</tr>
+<tr>
+    <td>51</td>
+    <td>Udong Mountain</td>
+    <td>Kandal Province, Cambodia</td>
+    <td>40 m</td>
+    <td>A former royal capital featuring stupas, Buddha statues, and scenic views.</td>
+</tr>
+<tr>
+    <td>52</td>
+    <td>Phnom Penh Night Market</td>
+    <td>Phnom Penh, Cambodia</td>
+    <td>0 m</td>
+    <td>A lively riverside market selling street food, souvenirs, and clothing.</td>
+</tr>
+                    </tbody>
+                </table>
+                <div class="footer-note">
+                    Developed by Pov Ropon
+                </div>
+            </div>
+        </body>
+        </html>
